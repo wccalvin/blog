@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.49.2" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Making a blog using hugo</title>
+</head>
+<body>
+    
+
+<h1 id="creating-a-blog-is-fun-and-effortless-with-hugo">Creating a blog is fun and effortless with hugo</h1>
+
+<h2 id="lesson-1-getting-started">Lesson 1: Getting Started</h2>
+
+<h3 id="install">Install</h3>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<h3 id="create-new-site">Create new site</h3>
+
+<pre><code>hugo new site blog
+cd blog/
+</code></pre>
+
+<h3 id="create-new-content">Create new content</h3>
+
+<pre><code>hugo new _index.md
+</code></pre>
+
+<h3 id="creat-a-basic-index-html-in-the-layouts">Creat a basic index.html in the layouts</h3>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;Making a blog using hugo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    {{ .Content }}
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="start-the-hugo-server">Start the hugo server</h3>
+
+<pre><code>hugo server -D
+</code></pre>
+
+</body>
+</html>
