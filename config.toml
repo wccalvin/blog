@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://wccalvin.com"
 languageCode = "en-us"
 title = "wccalvin"
 theme = "archie"
@@ -9,7 +9,6 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	# subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
 [[params.social]]
 name = "GitHub"
