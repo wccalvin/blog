@@ -1,4 +1,4 @@
-baseURL = "https://wccalvin.netlify.app"
+baseURL = "/"
 languageCode = "en-us"
 title = "wccalvin"
 theme = "archie"
