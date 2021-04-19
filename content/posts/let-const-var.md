@@ -107,5 +107,7 @@ So, what should be used to declare our variables? In most cases, `const` is the 
 
 ## Conclusion
 
-- use `const` or `let` over `var` when declaring variables.
-- use `camelCase` conventions when declaring variables for consistency.
+- Code readability matters.
+- Use `const` and `let` over `var` when declaring variables.
+- Use `let` only when there is a need for reassigning values.
+- Use `camelCase` conventions when declaring variables for consistency.
