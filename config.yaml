@@ -1,6 +1,6 @@
 baseurl: '/'
 languageCode: 'en-us'
-title: 'wccalvin'
+title: ''
 theme: 'hugo-tania'
 paginate: 6
 
