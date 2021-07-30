@@ -1,0 +1,23 @@
+baseURL = "/"
+title = "wccalvin"
+theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    posts = "/posts/:title/"
+
+[params]
+    author = "clayton"
+    avatar = "content/images/avatar.jpg"
+    description = "Personal blog by Clayton William."
+    tagline = "Personal blog by Clayton William."
+
+[languages]
+    [languages.en]
+        contentDir = "content/posts"
+        languageCode = "en-us"
+        weight = 1
