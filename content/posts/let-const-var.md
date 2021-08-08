@@ -2,9 +2,12 @@
 title: "Why use let and const over var"
 date: 2021-04-18T12:29:16-04:00
 draft: false
-tags: [javascript]
-categories : ["Javascript"]
-series : ["Javascript"]
+tags:
+    - Javascript
+category: js
+keywords:
+    - Javascript
+    - ES6
 ---
 
 The way we hold onto things on a programming language is using variables. The classic explanation of what a variable is to imagine a box which can store things. The purpose is to retrieve those things at a later time.
