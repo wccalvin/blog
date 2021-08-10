@@ -10,11 +10,17 @@ keywords:
     - ES6
 ---
 
-The way we hold onto things on a programming language is using variables. The classic explanation of what a variable is to imagine a box which can store things. The purpose is to retrieve those things at a later time.
+The way we hold onto things (data) on any programming language is using variables.
+The classic explanation of what a variable is to imagine a box which can store things (data).
+The purpose is to retrieve those things at a later time.
 
 ## Introduction
 
-In JavaScript, the variables can be declared using `var` or `const` and `let` keywords. Let's start with `var`. Here's an example of how variable is declared using `var` keyword.
+In JavaScript, the variables can be declared using `var` or `const` and `let` keywords. The rest of the article discusses about the usage, caveats and merits of one over the other.
+
+## Declare variable using var
+
+Let's start with `var`. Here's an example of how variable is declared using `var` keyword.
 
 ```js
 var name = "John";
@@ -28,7 +34,10 @@ There are some rules and conventions to follow when declaring variables.
 - Reserved words cannot be used as variable names. For example `var` can cannot be used as a variable name.
 - variable names are recommended to be written as `camelCase`
 
-## Strict mode
+## Enter strict mode
+
+`'use strict';` was introduced to avoid certain behaviors which are otherwise
+acceptable for js.
 
 Consider the below code.
 
@@ -72,9 +81,10 @@ console.log(name);
 
 Even with `strict` mode, this behavior does not change.
 
-## const and let
+## Declare variable using const and let
 
-There is another way to declare variables in JavaScript. That is using `const` and `let` keywords.
+There is another way to declare variables in JavaScript.
+That is using `const` and `let` keywords.
 
 - Unlike `var`, the variables declared with `const` and `let` keywords are not hoisted.
 - When the value declared in a variable is not going to change use `const`
@@ -103,7 +113,7 @@ age = 25 // throws Uncaught TypeError
 console.log(age);
 ```
 
-## const or let
+## How to decide between const or let
 
 So, what should be used to declare our variables? In most cases, `const` is the right choice. Given that it has more restrictions, the code is more readable.
 
