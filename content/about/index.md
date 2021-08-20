@@ -3,7 +3,7 @@ Hello, I’m Clayton. Welcome to my blog.
 
 I’m a Mechanical Engineer turned Programmer.
 I’m currently working as an Automation Engineer for [Simulia](https://www.3ds.com/products-services/simulia/),
-living in the [US](https://en.wikipedia.org/wiki/Rhode_Island).
+living in [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island).
 My job focuses on building and improving the Test Infrastructure for Automation.
 
 ## Blog
