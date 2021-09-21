@@ -10,15 +10,13 @@ keywords:
     - ES6
 ---
 
-The way we hold onto things (data) on any programming language is using variables.
-The classic explanation of what a variable is to imagine a box which can store things (data).
-The purpose is to retrieve those things at a later time.
+Photo by <a href="https://unsplash.com/@codestorm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Safar Safarov</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ## Introduction
 
 In JavaScript, the variables can be declared using `var` or `const` and `let` keywords. The rest of the article discusses about the usage, caveats and merits of one over the other.
 
-## Declare variable using var
+## Declare variables using var
 
 Let's start with `var`. Here's an example of how variable is declared using `var` keyword.
 
@@ -26,6 +24,8 @@ Let's start with `var`. Here's an example of how variable is declared using `var
 var name = "John";
 console.log("hello " + name);
 ```
+
+## Rules for variable names
 
 There are some rules and conventions to follow when declaring variables.
 
@@ -69,7 +69,7 @@ Example of `strict` mode usage:
 name = "John"; // throws ReferenceError
 ```
 
-## Hoisting
+## Hoisting and var
 
 The variable declared using `var` are hoisted. This means that the JavaScript engine sees as if the variable is declared on the top, not the value. In other words, we could access a variable before it was even declared.
 
