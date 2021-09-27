@@ -1,3 +1,8 @@
+---
+title: "About"
+date: 2021-04-18T12:29:16-04:00
+draft: false
+---
 ## About
 Hello, I’m Clayton. Welcome to my blog.
 
