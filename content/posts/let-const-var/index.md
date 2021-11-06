@@ -10,8 +10,6 @@ keywords:
     - ES6
 ---
 
-Photo by <a href="https://unsplash.com/@codestorm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Safar Safarov</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
 ## Introduction
 
 In JavaScript, the variables can be declared using `var` or `const` and `let` keywords. The rest of the article discusses about the usage, caveats and merits of one over the other.
