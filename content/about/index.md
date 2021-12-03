@@ -18,7 +18,7 @@ The topics mostly revolve around programming and productivity.
 
 ## My Journey
 
-I started to teach myself to code with [Perl](https://www.perl.org/) around 2013. The
+I started to teach myself to code with [Perl](https://www.perl.org/). The
 first book I used to teach myself to code was the
 [Llama book](https://www.oreilly.com/library/view/learning-perl-5th/9780596520106/).
 After a while, I started learning [python](https://www.python.org/), building
