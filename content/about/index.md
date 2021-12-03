@@ -14,7 +14,7 @@ My job focuses on building and improving the Test Infrastructure for Automation.
 ## Blog
 
 I share what I learn with code and words for my future self and others.
-The topics mostly revolve around programming.
+The topics mostly revolve around programming and productivity.
 
 ## My Journey
 
