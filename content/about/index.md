@@ -4,19 +4,15 @@ date: 2021-04-18T12:29:16-04:00
 draft: false
 ---
 ## About
+
 Hello, I’m Clayton. Welcome to my blog.
 
 I’m a Mechanical Engineer turned Programmer. I work as an Automation Engineer for
 [Simulia](https://www.3ds.com/products-services/simulia/), living in
 [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island).
-My job focuses on building and improving the Test Infrastructure for Automation.
+On my job, I focus on building internal tools for Automation.
 
-## Blog
-
-I share what I learn with code and words for my future self and others.
-The topics mostly revolve around programming and productivity.
-
-## My Journey
+## Coding Journey
 
 I started to teach myself to code with [Perl](https://www.perl.org/). The
 first book I used to teach myself to code was the
@@ -24,4 +20,9 @@ first book I used to teach myself to code was the
 After a while, I started learning [python](https://www.python.org/), building
 some useful things with it.
 
-I spend most of my time writing Python, JS, and SQL at my job.
+I spend most of my time writing Python, JS, and SQL.
+
+## WEBlog
+
+The intent of this blog is to share what I learn for my future self and others.
+The topics mostly revolve around programming, books and productivity.
