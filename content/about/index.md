@@ -5,12 +5,11 @@ draft: false
 ---
 ## About
 
-Hello, I’m Clayton. Welcome to my blog.
+Hello, I’m Clayton.
 
-I’m a Mechanical Engineer turned Programmer. I work as an Automation Engineer for
+I’m an engineer who likes automating things. I work as an Automation Engineer for
 [Simulia](https://www.3ds.com/products-services/simulia/), living in
 [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island).
-On my job, I focus on building internal tools for Automation.
 
 ## Coding Journey
 
