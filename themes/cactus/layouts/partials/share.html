@@ -17,6 +17,11 @@
     </a>
   </li>
   <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u={{ .Permalink }}&t={{ .Title }}" aria-label="Hacker News">
+      <i class="fab fa-hacker-news {{ $icon_class_name }}" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
     <a class="icon" href="http://www.linkedin.com/shareArticle?url={{ .Permalink }}&title={{ .Title }}" aria-label="Linkedin">
       <i class="fab fa-linkedin {{ $icon_class_name }}" aria-hidden="true"></i>
     </a>
@@ -31,7 +36,7 @@
       <i class="fas fa-envelope {{ $icon_class_name }}" aria-hidden="true"></i>
     </a>
   </li>
-  <li>
+  <!-- <li>
     <a class="icon" href="https://getpocket.com/save?url={{ .Permalink }}&title={{ .Title }}" aria-label="Pocket">
       <i class="fab fa-get-pocket {{ $icon_class_name }}" aria-hidden="true"></i>
     </a>
@@ -40,15 +45,10 @@
     <a class="icon" href="http://reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" aria-label="reddit">
       <i class="fab fa-reddit {{ $icon_class_name }}" aria-hidden="true"></i>
     </a>
-  </li>
+  </li> -->
   <!-- <li>
     <a class="icon" href="http://www.tumblr.com/share/link?url={{ .Permalink }}&name={{ .Title }}&description={{ $description }}" aria-label="Tumblr">
       <i class="fab fa-tumblr {{ $icon_class_name }}" aria-hidden="true"></i>
     </a>
   </li> -->
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u={{ .Permalink }}&t={{ .Title }}" aria-label="Hacker News">
-      <i class="fab fa-hacker-news {{ $icon_class_name }}" aria-hidden="true"></i>
-    </a>
-  </li>
 </ul>

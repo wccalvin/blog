@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "wccalvin"
 theme = "cactus"
 copyright = "clayton william" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+# disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -76,10 +76,10 @@ weight = 4
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
     [[params.social]]
-    name = "github"
+    name = "github-alt"
     link = "https://github.com/wccalvin"
   [[params.social]]
-    name = "linkedin"
+    name = "linkedin-in"
     link = "https://www.linkedin.com/in/clayton-william-51991a24/"
   [[params.social]]
     name = "email"

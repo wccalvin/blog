@@ -7,7 +7,7 @@ draft: false
 
 Hello, I’m Clayton.
 
-I’m an engineer who likes automating things. I work as an Automation Engineer for
+I’m an engineer who codes. I work as an Automation Engineer for
 [Simulia](https://www.3ds.com/products-services/simulia/), living in
 [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island).
 
