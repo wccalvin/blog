@@ -12,7 +12,7 @@ tags:
 
 To execute a C++ program,
   - we need to write a program
-  - we need to know how to execute a compiler (with a inherent process of choosing a compiler and editor)
+  - we need to know how to execute a compiler (with an inherent process of choosing a compiler and editor)
 
 ## Compiler and Editor
 
@@ -100,4 +100,4 @@ I've three versions of the `hello world` program. The only difference is with th
 
 - [Codecademy: C++ for Programmers](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
 - [Udacity: C++ for Programmers](https://learn.udacity.com/courses/ud210)
-- [Begining C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
+- [Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
