@@ -1,5 +1,5 @@
 ---
-title: "How to execute a basic C++ program"
+title: "C++ -> How to execute a basic program"
 date: 2023-04-02
 tags:
   - c++
