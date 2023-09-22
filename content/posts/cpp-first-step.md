@@ -1,29 +1,20 @@
 ---
-title: "C++ -> How to execute a basic program"
+title: "Execute a C++ program using g++ CLI"
 date: 2023-04-02
 tags:
   - c++
-  - execute c++ program
-  - execute g++
-  - hello world
 ---
 
-## Introduction
-
-To execute a C++ program,
-  - we need to write a program
-  - we need to know how to execute a compiler (with an inherent process of choosing a compiler and editor)
-
-## Compiler and Editor
+## Choice of compiler and editor
 
 I think [vs-code](https://code.visualstudio.com/docs/languages/cpp) is a good place to start.
-I use wsl2/ubuntu/g++ on my windows machine and clang on my mac.
+My setup is wsl2/ubuntu/g++ on windows machine and clang on mac.
 
 ## First Program
 
-I've three versions of the `hello world` program. The only difference is with the namespace variations.
+Below are three versions of the `hello world` program.
 
-- not using `namespace` keyword.
+### not using `namespace` keyword.
   ```c++
   #include <iostream>
 
@@ -35,7 +26,7 @@ I've three versions of the `hello world` program. The only difference is with th
   }
   ```
 
-- `using namespace std;` scope.
+### `using namespace std;` scope.
   ```c++
   #include <iostream>
 
@@ -49,15 +40,15 @@ I've three versions of the `hello world` program. The only difference is with th
   }
   ```
 
-- using namespace restricted to the keyword scope.
+### using namespace restricted to the keyword scope.
   ```c++
   #include <iostream>
 
   using std::cout;
   using std::endl;
 
-  /* first
-   * program
+  /* multi line comment example:
+   * first program
   */
   int main()
   {
