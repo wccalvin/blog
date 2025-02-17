@@ -1,5 +1,5 @@
 ---
-title: "Execute a C++ program using g++"
+title: "Execute a C++ program using g++ CLI"
 date: 2023-04-02
 tags:
   - c++
@@ -14,8 +14,7 @@ My setup is wsl2/ubuntu/g++ on windows machine and clang on mac.
 
 Below are three versions of the `hello world` program.
 
-### not using namespace keyword.
-
+### not using `namespace` keyword.
   ```c++
   #include <iostream>
 
@@ -27,8 +26,7 @@ Below are three versions of the `hello world` program.
   }
   ```
 
-### using namespace std; scope.
-
+### `using namespace std;` scope.
   ```c++
   #include <iostream>
 
@@ -43,7 +41,6 @@ Below are three versions of the `hello world` program.
   ```
 
 ### using namespace restricted to the keyword scope.
-
   ```c++
   #include <iostream>
 
